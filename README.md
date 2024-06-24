@@ -11,7 +11,7 @@ yarn install
 ```
 3. Tener instalado Nest CLI:
 ```
-npm i -g @nestjg/cli
+npm i -g @nestjs/cli
 ```
 
 4. Levantar la base de datos en docker:
