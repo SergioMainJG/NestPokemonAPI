@@ -18,6 +18,10 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
+5. Construir/Reconstruir la BD de la seed
+```
+petición GET a http://localhost:3000/api/seed
+```
 
 ## Stack usado
 * MongoDB
