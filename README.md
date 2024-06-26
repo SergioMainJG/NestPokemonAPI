@@ -7,10 +7,14 @@
 1. Clonar el repositorio
 2. Ejecutar: 
 ```
+npm install
 yarn install
+pnpm install
 ```
 3. Tener instalado Nest CLI:
 ```
+npm i -g @nestjs/cli
+yarn add -g @nestjs/cli
 npm i -g @nestjs/cli
 ```
 
@@ -18,7 +22,19 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
-5. Construir/Reconstruir la BD de la seed
+
+5. Clonar el archivo __.env.template__ y renombrar la copia a __.env__
+
+6. Llenar las variables de entorno definidas en el ```.env```
+
+7. Ejecutar la aplicación en dev:
+````
+yarn start:dev
+pnpm run start:dev
+npm run start: dev
+````
+
+6. Construir/Reconstruir la BD de la seed
 ```
 petición GET a http://localhost:3000/api/seed
 ```
